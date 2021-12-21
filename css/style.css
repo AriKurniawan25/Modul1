@@ -75,6 +75,7 @@ section h2{
 
 section h3{
     text-align: center;
+    padding-top: 75px;
 }
 
 p{
@@ -113,4 +114,48 @@ h4{
 .berita p{
     text-indent: 50px;
     text-align: justify;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+
+.tentang h3{
+    padding-top: 0px;
+}
+
+@media(max-width:768px) {
+    h1{
+        font-size: 28px;
+    }
+    .banner{
+        background-position: center;
+    }
+}
+@media(max-width:400px) {
+    h1{
+        margin-left: 18px;
+        font-size: 25px;
+    }
+    .banner{
+        background-position: center;
+    }
+    header ul{
+        margin-right: 12px;
+    }
+    p{
+        font-size: 13px;
+        line-height: 15px;
+    }
+    section h3{
+        padding-top: 150px;
+        font-size: 17px;
+    }
+    img{
+        width: 300px;
+    }
+    h4{
+        font-size: 15px;
+    }
 }
