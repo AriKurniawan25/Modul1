@@ -5,5 +5,30 @@
 }
 
 header{
-    
+    border: 1px solid;
+}
+
+header::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+h1{
+    border: 1px solid;
+    float: left;
+    padding: 15px;
+}
+header ul{
+    border: 1px solid;
+    float: right;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
 }
